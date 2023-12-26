@@ -36,9 +36,9 @@ if not app:
     app = app.replace(" ", "")
 
 if user_input == "1":
-    os.system(f"python scripts/self_explorer.py --app {app} --root_dir {root_dir}")
+    os.system(f"python3 scripts/self_explorer.py --app {app} --root_dir {root_dir}")
 else:
     demo_timestamp = int(time.time())
     demo_name = datetime.datetime.fromtimestamp(demo_timestamp).strftime(f"demo_{app}_%Y-%m-%d_%H-%M-%S")
-    os.system(f"python scripts/step_recorder.py --app {app} --demo {demo_name} --root_dir {root_dir}")
-    os.system(f"python scripts/document_generation.py --app {app} --demo {demo_name} --root_dir {root_dir}")
+    os.system(f"python3 scripts/step_recorder.py --app {app} --demo {demo_name} --root_dir {root_dir}")
+    os.system(f"python3 scripts/document_generation.py --app {app} --demo {demo_name} --root_dir {root_dir}")

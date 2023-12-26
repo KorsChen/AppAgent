@@ -1,5 +1,6 @@
-OPENAI_API_BASE: "https://api.openai.com/v1/chat/completions"
-OPENAI_API_KEY: "sk-"  # Set the value to sk-xxx if you host the openai interface for open llm model
+# OPENAI_API_BASE: "https://api.openai.com/v1/chat/completions"
+OPENAI_API_BASE: "https://api.pro365.top/v1/chat/completions"
+OPENAI_API_KEY: "sk-4KiUwG8yg3OP11eH22009e79D3574c5d97819c4c0819C041"  # Set the value to sk-xxx if you host the openai interface for open llm model
 OPENAI_API_MODEL: "gpt-4-vision-preview"  # The only OpenAI model by now that accepts visual input
 MAX_TOKENS: 300  # The max token limit for the response completion
 TEMPERATURE: 0.0  # The temperature of the model: the lower the value, the more consistent the output of the model
